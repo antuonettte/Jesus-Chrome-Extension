@@ -1,0 +1,13 @@
+.spin {
+  animation-name: spin;
+  animation-duration: 1s;
+}
+
+@keyframes spin {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

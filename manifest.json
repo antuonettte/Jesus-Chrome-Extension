@@ -1,0 +1,23 @@
+{
+    "name" : "Do you know you Jesus?",
+    "description" : "Routine check if you know your lord and savior.",
+    "version": "4.5.33",
+    "manifest_version": 2,
+    "icons":{
+        "16":"./res/cross16x16.png",
+        "32":"./res/cross32x32.png",
+        "48":"./res/cross48x48.png",
+        "128":"./res/cross128x128.png"
+    },
+    "background":{
+        "scripts":["./scripts/background.js"]
+    },
+    "options_page": "./html/options.html",
+    "browser_action":{
+        "default_popup": "./html/surprise.html"
+    },
+    "permissions" : [
+        "tabs",
+        "https://www.google.com/*"
+    ]
+}
