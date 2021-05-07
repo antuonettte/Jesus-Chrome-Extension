@@ -12,8 +12,9 @@ searchBox.classList.add('spin');
 
 onLoad();
 
-var audio = new Audio('audio_file.mp3');
-audio.play();
+// var myAudio = new Audio(chrome.runtime.getURL("./res/victory.mp3"));
+// myAudio.muted = true;
+// myAudio.play();
 
 const body = document.querySelector("div[class='L3eUgb']");
 body.classList.add('jesus');

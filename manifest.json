@@ -9,6 +9,9 @@
         "48":"./res/cross48x48.png",
         "128":"./res/cross128x128.png"
     },
+    "web_accessible_resources": [
+        "./res/victory.mp3"
+    ],
     "background": {
         "scripts" : ["background.js"]
     },

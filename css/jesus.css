@@ -9,6 +9,7 @@
   animation-duration: 30s;
   transition: 3s ease-in;
   background-image: url(https://www.mediavillage.com/media/articles/black_jesus_2.jpg.550x380_q85_box-0%2C0%2C637%2C442_crop.jpg);
+  background-size: cover;
 }
 
 .hidden {
