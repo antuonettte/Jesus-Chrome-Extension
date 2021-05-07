@@ -1,13 +1,21 @@
 .spin {
   animation-name: spin;
   animation-duration: 1s;
+  visibility: hidden;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
 }
 
 @keyframes spin {
   0% {
-    transform: translateX(0);
+    visibility: visible;
+    transform: rotate(0);
   }
   100% {
     transform: rotate(360deg);
+    visibility: hidden;
   }
 }
