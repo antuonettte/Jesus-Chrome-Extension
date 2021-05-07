@@ -9,15 +9,14 @@
         "48":"./res/cross48x48.png",
         "128":"./res/cross128x128.png"
     },
-    "background":{
-        "scripts":["./scripts/background.js"]
+    "background": {
+        "scripts" : "background.js"
     },
-    "options_page": "./html/options.html",
-    "browser_action":{
-        "default_popup": "./html/surprise.html"
+    "browser_action" :{
+        "default_popup" : "./html/popup.html"
     },
-    "permissions" : [
+    "permissions": [
         "tabs",
         "https://www.google.com/*"
-    ]
+        ]
 }
