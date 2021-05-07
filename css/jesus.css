@@ -4,6 +4,13 @@
   visibility: hidden;
 }
 
+.jesus {
+  animation-name: jesus;
+  animation-duration: 30s;
+  transition: 3s ease-in;
+  background-image: url(https://www.mediavillage.com/media/articles/black_jesus_2.jpg.550x380_q85_box-0%2C0%2C637%2C442_crop.jpg);
+}
+
 .hidden {
   display: none !important;
   visibility: hidden !important;
@@ -17,5 +24,88 @@
   100% {
     transform: rotate(360deg);
     visibility: hidden;
+  }
+}
+
+@keyframes jesus {
+  0% {
+    opacity: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background-size: cover;
+  }
+  10% {
+    opacity: 0.5;
+    background-image: url(https://miro.medium.com/max/1200/1*bP7NpBpLRoLIQr70BJKKkw.jpeg);
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background-size: cover;
+  }
+  20% {
+    opacity: 0.8;
+    background-image: url(https://i.guim.co.uk/img/media/06aa6c2e05013ec3c71f0ef792e3fb158964604f/0_193_2688_1613/master/2688.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=bdf4edaab2bc4f7d58ef47c67ec81915);
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background-size: cover;
+  }
+  30% {
+    opacity: 1;
+    background-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/12/18/19/39-jesus-anomoly.jpg?width=982&height=726&auto=webp&quality=75);
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background-size: cover;
+  }
+  40% {
+    background-image: url(https://pbs.twimg.com/profile_images/3543386929/85cdc71ea5fa99e62a51defaea4ffc56.jpeg);
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background-size: cover;
+  }
+  50% {
+    background-image: url(https://imgix.ranker.com/list_img_v2/18616/2698616/original/pictures-of-hot-jesus?w=817&h=427&fm=jpg&q=50&fit=crop);
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background-size: cover;
+  }
+  60% {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5190e311e4b0454b98ae4bef/1433492015225-DDYRNPTFMLHJCPQMN319/ke17ZwdGBToddI8pDm48kOfEFPbJXUjYUR-Ebyto4SF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UXAUJpqZLSSGrMNRd_dk-vB5f44MIskk2MGCnYe8fRlGpC969RuPXvt2ZwyzUXQf7Q/image-asset.png);
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background-size: cover;
+  }
+  70% {
+    background-image: url(https://thathashtagshow.com/wp-content/uploads/2019/09/1-52-1.jpg);
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background-size: cover;
+  }
+  80% {
+    background-image: url(https://thumbs.dreamstime.com/b/jesus-taking-selfie-phone-67499191.jpg);
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background-size: cover;
+  }
+  90% {
+    background-image: url(https://img.17qq.com/images/gmmkggodndv.jpeg);
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background-size: cover;
+  }
+  100% {
+    background-image: url(https://www.mediavillage.com/media/articles/black_jesus_2.jpg.550x380_q85_box-0%2C0%2C637%2C442_crop.jpg);
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background-size: cover;
   }
 }

@@ -1,3 +1,5 @@
+//creates pattern that mattches any url, but only works on the url's that have permisions. Very
+// none effecient way to do this, need to get a more defined pattern
 var exp = /[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)?/gi;
 var regex = new RegExp(exp);
 
